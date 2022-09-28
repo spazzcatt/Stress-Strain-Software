@@ -1,0 +1,2 @@
+$ENV{'TZ'}='America/New_York';
+$pdflatex = "htlatex %S \"htlatex.cfg,MyFonts,NoFonts\" \"\" \"\" -shell-escape > output.txt; pdflatex -synctex=1 %O %S";
